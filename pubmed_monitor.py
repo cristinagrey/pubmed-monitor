@@ -98,10 +98,11 @@ def classify_article(article, keywords):
 
 
 def translate_with_niutrans(text):
+    apikey = os.environ.get('NIUTRANS_KEY', 'fba2b7e7737a1eb72bb0a7dee04e04e6')
     url = "http://api.niutrans.com/NiuTransServer/translation"
     params = {
         'from': 'en', 'to': 'zh',
-        'apikey': 'fba2b7e7737a1eb72bb0a7dee04e04e6',
+        'apikey': apikey,
         'src_text': text[:5000]
     }
     req = Request(f"{url}?{urlencode(params)}", headers={'User-Agent': 'Mozilla/5.0'})
