@@ -1,0 +1,36 @@
+{
+  "keywords": [
+    "Ebola virus VP40",
+    "Ebola nucleoprotein",
+    "filovirus",
+    "Ebola GP glycoprotein",
+    "EBOV VP24",
+    "EBOV VP35",
+    "EBOV VP30",
+    "EBOV L protein",
+    "(small molecule inhibitor) AND (virus OR viral OR virology OR antiviral OR Ebola OR filovirus)",
+    "influenza virus inhibitor",
+    "influenza antiviral",
+    "coronavirus inhibitor",
+    "SARS-CoV-2 inhibitor",
+    "COVID-19 antiviral",
+    "HIV inhibitor",
+    "hepatitis B virus inhibitor",
+    "retrovirus inhibitor",
+    "reverse transcriptase inhibitor"
+  ],
+  "email_settings": {
+    "sender_email": "13908691257@163.com",
+    "sender_password": "",
+    "receiver_email": "3094249436@qq.com",
+    "smtp_server": "smtp.163.com",
+    "smtp_port": 465
+  },
+  "search_settings": {
+    "max_results": 20,
+    "days_back": 10,
+    "email_subject_prefix": "PubMed文献推荐",
+    "articles_per_email": 20,
+    "max_emails": 1
+  }
+}
